@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+.loadingImg{
+  width: 400px;
+  display: flex;
+  margin: 30% auto;
+}
+
+.fa-spin{
+  font-size: 3rem;
+  color: rgb(119, 97, 44);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+
+

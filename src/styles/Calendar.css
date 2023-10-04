@@ -1,0 +1,23 @@
+.schedule{
+    background-image: url(/PLANTILLA-STORY-PAOLA-PUERTA-a.png);
+    background-size: cover;
+}
+
+.calendar-top{
+    position: absolute;
+    top: 1000px;
+    padding-left: 170px;
+    margin-top: -300px;
+}
+
+.whatsapp-button{
+    border: none;
+    padding: .2rem .65rem;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    background-color: #3ada00;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+

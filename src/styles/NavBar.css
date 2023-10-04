@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 2rem 2rem;
+}
+
+.logo{
+    width: 250px;
+    height: 90px;
+    object-fit: cover;
+    margin: -2rem;
+}
+
+.navbar .fa-solid{
+    font-size: 1.75rem;
+    margin-top: .75rem;
+    color: #634b4b;
+    cursor: pointer;
+}
+
+
+.link{
+    text-decoration: none;
+    color: #77612c;
+    font-size: 14px;
+    padding: .5rem;
+}
+
+.links button {
+    padding: .5rem;
+    display: flex;
+    background-color: transparent;
+    width: 35px;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .navbar{
+        padding: 2rem 4rem;
+    }
+    .logo{
+        width: 350px;
+        height: 110px;
+    }
+}

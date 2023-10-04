@@ -1,0 +1,62 @@
+.footer{
+    background-color: #DDD1C1;
+    background-image: url("/PLANTA-4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 300px;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+#logo{
+    width: 200px;
+    margin: 0 -2rem;
+}
+
+.footer-top{
+    display: flex;
+}
+
+.footer-top p{
+    margin-bottom: .5rem;
+}
+
+.footer-top-text{
+    margin-top: 3rem;
+}
+
+#underline-footer{
+    border-bottom: 3px solid #826a4b;
+    width: 40px;
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: column;
+    color: #644f33;
+    font-weight: 100;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+
+.footer-icons .fa-icon{
+    color: #644f33;
+    padding-right: .25rem;
+    padding-bottom: .5rem;
+}
+
+
+@media only screen and (min-width: 540px){
+    .footer-icons{
+        margin-left: 70px;
+        font-size: 1.25rem;
+    }
+
+    #logo{
+        margin: 0;
+    }
+
+    .footer-top-text{
+        margin-top: 5rem;
+    }
+}
