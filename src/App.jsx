@@ -30,13 +30,15 @@ export default function App(){
           {waitForRender && <Loading />}
           {!waitForRender && <Router>
             <NavBar lan={lan} changeLan={() => changeLan()}/>
+            <div className='calendar-top'> 
+              <a href='https://wa.me/+51963356362' className='whatsapp-button'><i class="fa-brands fa-whatsapp fa-icon"></i></a>
+            </div>
             <Routes>
               <Route path='/' element={<Home lan={lan}/>}/>
-              <Route path="/about-me" element={<AboutMe/>} />
-              <Route path='/calendar' element={<Calendar/>} />
-              <Route path="/contact" element={<Contact lan={lan}/>} />
-              <Route path="/all-projects" element={<AllProjects/>} />
-              <Route path="/testimonials" element={<Testimonials/>} />
+              <Route path="/about-me" element={<AboutMe lan={lan}/>} />
+              <Route path='/calendar' element={<Calendar lan={lan}/>} />
+              <Route path="/all-projects" element={<AllProjects lan={lan}/>} />
+              <Route path="/testimonials" element={<Testimonials lan={lan}/>} />
             </Routes>
             <Footer lan={lan}/>
           </Router>}

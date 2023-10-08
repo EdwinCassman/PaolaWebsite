@@ -28,7 +28,7 @@ export default function NavBar(props){
         margin: "auto 0",
         display: "flex",
         justifyContent: "space-between",
-        width: "700px"
+        width: "450px"
     }
     
 
@@ -46,14 +46,12 @@ export default function NavBar(props){
 
     return (
        <div className='navbar'>
-            <Link className='link' to="/"><img className='logo' src="/pplogo.png" alt="" /></Link>
+            <Link onClick={toggleMobileNav} className='link' to="/"><img className='logo' src="/pplogo.png" alt="" /></Link>
 
             <div style={ width < 1025 ? linkStyles : normalStyles} className='links'>
                 <Link onClick={toggleMobileNav} className='link' to="/about-me">{props.lan ? "ABOUT ME" : "ACERCA DE MÍ"}</Link>
                 <Link onClick={toggleMobileNav} className='link' to="/calendar">{props.lan ? "SCHEDULE WITH ME" : "AGENDA CONMIGO"}</Link>
-                <Link onClick={toggleMobileNav} className='link'>{props.lan ? "SERVICES" : "SERVICIOS"}</Link>
                 <Link onClick={toggleMobileNav} className='link' to="/testimonials" >{props.lan ? "TESTIMONIALS" : "TESTIMONIOS"}</Link>
-                <Link onClick={toggleMobileNav} className='link' to="/contact">{props.lan ? "CONTACT" : "CONTACTO"}</Link>
                 <button onClick={props.changeLan}><strong>{props.lan ? "ES" : "EN"}</strong></button>
             </div>
 

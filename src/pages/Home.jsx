@@ -27,11 +27,11 @@ export default function Home(props){
                 </div>
                 <div className='gtku-text'>
                     <div className='gtku-underline'></div>
-                    <h2>Ustedes son lo más importante</h2>
-                    <p>Nos mueve la pasión por las bodas, pero sobre todo, ayudar a dos personas que se eligieron para siempre.
-                        Los acompañaremos en este camino de la manera más personalizada posible, y con todo el amor del mundo.
+                    <h2>{props.lan ? "You are the most important" : "Ustedes son lo más importante"}</h2>
+                    <p>{props.lan ? "We are driven by a passion for weddings, but above all, helping two people who chose each other forever. We will accompany you on this journey in the most personalized way possible, and with all the love in the world" : 
+                        "Nos mueve la pasión por las bodas, pero sobre todo, ayudar a dos personas que se eligieron para siempre. Los acompañaremos en este camino de la manera más personalizada posible, y con todo el amor del mundo."}
                     </p>
-                    <button>CONÓCENOS</button>
+                    <Link to="/about-me" className='gtku-button'>{props.lan ? "GET TO KNOW ME" : "CONÓCEME"}</Link>
                 </div>
             </section>
             <section className='quote'>

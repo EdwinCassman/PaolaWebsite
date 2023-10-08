@@ -29,7 +29,6 @@ export default function AllProjectsComp(props){
         <div className='project'>
             <div className='wedding-project'>
           
-                    <img id='border-img' src="/bordertop.jpg" alt="" />
                
                 <p>{props.data.name}</p>
                 <h4 style={{fontFamily: "cursive", margin: "-1rem 0 1rem 0"}}>{props.data.date}</h4>

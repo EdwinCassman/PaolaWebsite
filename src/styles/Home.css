@@ -24,7 +24,7 @@
     text-align: center;
     width: 100%;
     background-color: #f0f0f0;
-    color: #7a7168;
+    color: #24201d;
 }
 
 .gtku-text h2, .gtku-text p{
@@ -38,7 +38,7 @@
 .gtku-text p{
     font-size: .85rem;
     line-height: 24px;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
 }
 
 .gtku-underline{
@@ -55,7 +55,8 @@
     border-radius: 50%;
 }
 
-.get-to-know-us button{
+.gtku-button{
+    text-decoration: none;
     margin-top: 1rem;
     font-weight: 700;
     letter-spacing: 2px;
@@ -67,11 +68,12 @@
     cursor: pointer;
 }
 
-.get-to-know-us button:hover{
+.gtku-button:hover{
     border: 4px solid #ddcbb3;
 }
 
 .projects{
+    margin-top: .3rem;
     padding: 6rem 2rem;
     text-align: center;
     color: #7a7168;
@@ -132,7 +134,7 @@
 
 .about-home{
     padding: 6rem 2rem;
-    color: #47423c;
+    color: #2d2924;
     background-color: #f2f1ee;
 }
 
@@ -145,7 +147,7 @@
 }
 
 .about-home h4{
-    font-weight: 100;
+    font-weight: 200;
     margin: 1rem 0;
     font-size: 1rem;
     line-height: 28px;

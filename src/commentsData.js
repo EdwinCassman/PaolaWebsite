@@ -32,7 +32,8 @@ export const commentsData = [
     {
         name: "katherine C.",
         comment: "Pao es una profesional en todo sentido! Nos ayudo muchísimo a realizar la boda de nuestros sueños Estuvo pendiente de TODOS LOS DETALLES para que nosotros sólo estemos tranquilos en el gran día y disfrutemos!",
-        bg: false
+        bg: false,
+        image: "/katherine.JPG"
     },
     {
         name: "Haying C.",
@@ -62,6 +63,7 @@ export const commentsData = [
         name: "Romina R.",
         comment: "En mi caso Pao me ayudo bastante en cosas de las cuales no podría coordinar y revisar ya que no vivía en Peru. Prácticamente ella se encargó de todo , yo solo llegue a casarme jajaja es la mejor y se gano un pedacito de mi corazón.",
         bg: true,
+        image: "/romina.JPG"
     },
     {
         name: "Lydia Q.",

@@ -9,18 +9,45 @@ body{
 }
 
 .loadingImg{
-  width: 400px;
+  width: 300px;
   display: flex;
-  margin: 30% auto;
+  margin: 100px auto;
 }
 
 .fa-spin{
-  font-size: 3rem;
+  font-size: 2rem;
   color: rgb(119, 97, 44);
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 
+.calendar-top{
+  display: flex;
+  position: fixed;
+  right: 25px;
+  bottom: 20px;
+}
 
+.whatsapp-button{
+  margin: 0 auto;
+  border: none;
+  padding: .2rem .65rem;
+  border-radius: 10px;
+  font-size: 2.5rem;
+  background-color: #b6a591;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width: 800px){
+  .fa-spin{
+    font-size: 3rem;
+  }
+
+  .loadingImg{
+    width: 400px;
+  }
+}
